@@ -1,0 +1,17 @@
+.image {
+  width: 30rem;
+}
+.header-container {
+  background: #b8dde3;
+}
+.header-left-container {
+  width: 600px;
+}
+.header-left-container h1 {
+  font-size: 44px;
+  text-transform: uppercase;
+  padding: 10px;
+}
+h1 {
+  font-weight: 700;
+}

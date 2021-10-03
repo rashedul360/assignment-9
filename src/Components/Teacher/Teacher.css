@@ -1,0 +1,17 @@
+.teacher-img {
+  border-radius: 70% 30% 67% 33%/30% 70% 30% 70% !important;
+}
+.teacher-card {
+  border: none;
+}
+.intro i {
+  font-size: 25px;
+  margin: 10px 5px;
+  cursor: pointer;
+}
+.fa-facebook {
+  color: #077ae9;
+}
+.fa-twitter {
+  color: #0f9afb;
+}

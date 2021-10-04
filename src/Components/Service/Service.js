@@ -2,11 +2,13 @@ import React from "react";
 import { Card, Col } from "react-bootstrap";
 
 const Service = (props) => {
+  // some common object peacking
   const { img, id, desc, discount, price, title } = props.service;
 
   return (
     <div className="mt-5 ">
       <div className="container">
+        {/* courses summary  */}
         <Col>
           <Card>
             <Card.Img variant="top" src={img} />

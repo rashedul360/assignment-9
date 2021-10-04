@@ -1,3 +1,4 @@
+/* site footer  */
 .site-footer {
   background-color: #26272b;
   padding: 45px 0 20px;
@@ -5,6 +6,7 @@
   line-height: 24px;
   color: #737373;
 }
+/* site footer horizontal line  */
 .site-footer hr {
   border-top-color: #bbb;
   opacity: 0.5;
@@ -12,6 +14,7 @@
 .site-footer hr.small {
   margin: 20px 0;
 }
+/* site footer h6 tag design  */
 .site-footer h6 {
   color: #fff;
   font-size: 16px;
@@ -19,35 +22,45 @@
   margin-top: 5px;
   letter-spacing: 2px;
 }
+/* site footer a tag design  */
 .site-footer a {
   color: #737373;
 }
+/* site footer a tag hover design  */
 .site-footer a:hover {
   color: #3366cc;
   text-decoration: none;
 }
+/* inportant footer links   */
 .footer-links {
   padding-left: 0;
   list-style: none;
 }
+/* footer items  */
 .footer-links li {
   display: block;
 }
+/* footer link color control  */
 .footer-links a {
   color: #737373;
 }
+/* footer link hover focus active modd control */
 .footer-links a:active,
 .footer-links a:focus,
 .footer-links a:hover {
   color: #3366cc;
   text-decoration: none;
 }
+
 .footer-links.inline li {
   display: inline-block;
 }
+/* site footer social icon  */
 .site-footer .social-icons {
   text-align: right;
 }
+/* site footer a tag icon  */
+
 .site-footer .social-icons a {
   width: 40px;
   height: 40px;
@@ -57,9 +70,11 @@
   border-radius: 100%;
   background-color: #33353d;
 }
+/* copyright bar  */
 .copyright-text {
   margin: 0;
 }
+/* some responsive design  */
 @media (max-width: 991px) {
   .site-footer [class^="col-"] {
     margin-bottom: 30px;
@@ -136,3 +151,5 @@
     font-weight: 600;
   }
 }
+
+/* respinsive design ended */

@@ -1,20 +1,26 @@
+/* image class design control */
 .image {
   width: 30rem;
 }
+/* header container  */
 .header-container {
   background: #b8dde3;
 }
+/* left header container  */
 .header-left-container {
   width: 600px;
 }
+/* header container h1 tag design control */
 .header-left-container h1 {
   font-size: 44px;
   text-transform: uppercase;
   padding: 10px;
 }
+/* all h1 tag design  */
 h1 {
   font-weight: 700;
 }
+/* button class control  */
 .button {
   padding: 10px 20px;
 }

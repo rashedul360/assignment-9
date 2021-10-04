@@ -12,10 +12,12 @@ const Teachers = () => {
   return (
     <div>
       <div className="mt-5 mb-5">
+        {/* intro part for teachers  */}
         <h1>
           our techers <span> whos are teaching</span>
         </h1>
       </div>
+      {/* map api array and show the grid system on the UI */}
       <Row xs={1} md={4} className="g-4">
         {teachers.map((teacher) => (
           <Teacher key={teacher.key} teacher={teacher}></Teacher>

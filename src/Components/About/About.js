@@ -4,6 +4,7 @@ import AboutImg from "../../images/about.svg";
 const About = () => {
   return (
     <div>
+      {/* About page  */}
       <section>
         <div className="about-container">
           <h1 className="">আমাদের সম্পর্কে </h1>
@@ -26,15 +27,18 @@ const About = () => {
             <span>
               আমাদের স্লোগান{" "}
               <sup>
+                {/* about incon  */}
                 <i class="fas fa-check-circle"></i>
               </sup>{" "}
             </span>
           </div>
           <div>
+            {/* about image  */}
             <img src={AboutImg} alt="" />
           </div>
         </div>
       </section>
+      {/* about page end */}
     </div>
   );
 };

@@ -7,7 +7,9 @@ const Home = () => {
   return (
     <div>
       <div className="container">
+        {/* component call  */}
         <IntroSection />
+        {/* top sectices start */}
         <h1
           style={{
             textTransform: "uppercase",
@@ -17,6 +19,7 @@ const Home = () => {
         >
           our <span>top</span> services
         </h1>
+        {/* some demo course  */}
         <div className="row row-cols-1 row-cols-md-2 g-4">
           <div className="col">
             <div className="card">
@@ -25,6 +28,7 @@ const Home = () => {
                 className="card-img-top"
                 alt="..."
               />
+
               <div className="card-body">
                 <h5 className="card-title">কমপ্লিট ওয়েব ডেভেলপমেন্ট </h5>
 
@@ -128,6 +132,7 @@ const Home = () => {
             </div>
           </div>
         </div>
+        {/* some demo course end  */}
         <div>
           <Link to="/services" className="btn btn-success w-25 mb-5">
             show all

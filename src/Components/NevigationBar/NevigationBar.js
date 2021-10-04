@@ -5,6 +5,7 @@ import { Link, NavLink } from "react-router-dom";
 const NevigationBar = () => {
   return (
     <div>
+      {/* nav link using react router DOM  */}
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
           <NavLink to="/" className="nav-link">

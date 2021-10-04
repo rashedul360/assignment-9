@@ -23,6 +23,10 @@ function App() {
             <Header></Header>
             <Home></Home>
           </Route>
+          <Route exact path="/home">
+            <Header></Header>
+            <Home></Home>
+          </Route>
           <Route exact path="/services">
             <ServisesAPI></ServisesAPI>
           </Route>

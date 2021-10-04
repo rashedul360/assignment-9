@@ -9,6 +9,7 @@ import NevigationBar from "./Components/NevigationBar/NevigationBar";
 import Footer from "./Components/Footer/Footer";
 import Teachers from "./Components/Teachers/Teachers";
 import Teacher from "./Components/Teacher/Teacher";
+import About from "./Components/About/About";
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
           </Route>
           <Route exact path="/teachers">
             <Teachers></Teachers>
+          </Route>
+          <Route path="/about">
+            <About></About>
           </Route>
           <Route exact path="*">
             <NotFound></NotFound>

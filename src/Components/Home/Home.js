@@ -37,6 +37,9 @@ const Home = () => {
                   জাভাস্ক্রিপ্ট দিয়ে ব্যাংকের deposit, withdraw এর লাইভ
                   ক্যালকুলেশন থাকছে।
                 </p>
+                <h4>
+                  <span>price : 5500</span>
+                </h4>
                 <button className="btn btn-primary">more info</button>
               </div>
             </div>
@@ -63,6 +66,9 @@ const Home = () => {
                   স্কিলগুলো শিখুন ৪ মাসের মধ্যে, ১২টি প্র্যাকটিক্যাল প্রজেক্টের
                   মাধ্যমে।
                 </p>
+                <h4>
+                  <span>price : 4500</span>
+                </h4>
                 <button className="btn btn-primary">more info</button>
               </div>
             </div>
@@ -86,6 +92,9 @@ const Home = () => {
                   স্কিলগুলো শিখুন ৪ মাসের মধ্যে, ১৪টি প্র্যাকটিক্যাল প্রজেক্টের
                   মাধ্যমে।
                 </p>
+                <h4>
+                  <span>price : 5000</span>
+                </h4>
                 <button className="btn btn-primary">more info</button>
               </div>
             </div>
@@ -109,6 +118,9 @@ const Home = () => {
                   প্রয়োজনীয় প্রোগ্রামিং স্কিলগুলো শিখুন ৪ মাসের মধ্যে, ৮টি
                   প্র্যাকটিক্যাল প্রজেক্টের মাধ্যমে।
                 </p>
+                <h4>
+                  <span>price : 4500</span>
+                </h4>
                 <button className="btn btn-primary">more info</button>
               </div>
             </div>

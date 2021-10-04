@@ -11,6 +11,11 @@ const Teachers = () => {
   }, []);
   return (
     <div>
+      <div className="mt-5 mb-5">
+        <h1>
+          our techers <span> whos are teaching</span>
+        </h1>
+      </div>
       <Row xs={1} md={4} className="g-4">
         {teachers.map((teacher) => (
           <Teacher key={teacher.key} teacher={teacher}></Teacher>

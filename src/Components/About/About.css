@@ -1,0 +1,14 @@
+.about-container {
+  background-color: #b8dde3;
+  padding: 10rem;
+}
+.about-section-container {
+  padding: 20px;
+  min-height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+.about-section-container img {
+  width: 600px;
+  padding: 10px;
+}

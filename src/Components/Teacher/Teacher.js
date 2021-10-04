@@ -5,7 +5,7 @@ const Teacher = (props) => {
   console.log(props.teacher);
   const { name, key, img, joined, language, job } = props.teacher;
   return (
-    <div className="container">
+    <div className="container mt-5">
       <Col>
         <Card className="teacher-card">
           <div>

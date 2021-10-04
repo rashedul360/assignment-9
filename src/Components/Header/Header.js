@@ -1,7 +1,13 @@
 import React from "react";
+import { useHistory } from "react-router";
 
 import "./Header.css";
+
 const Header = () => {
+  const history = useHistory();
+  const handleMove = () => {
+    history.push("/about");
+  };
   return (
     <div>
       <div>
@@ -16,7 +22,10 @@ const Header = () => {
                 আমাদের এই প্রতিষ্ঠানে বাংলাদেশের ২ টি আইটি সেন্টার এর সমন্বয়ে
                 গঠিত । আমরা বাংলাদেশর জন্য কিছু করতে চাই এটাই আমাদের লক্ষ
               </p>
-              <button className="btn  btn-outline-secondary">
+              <button
+                onClick={handleMove}
+                className="btn button btn-outline-secondary fas fa-info-circle"
+              >
                 Explore More
               </button>
             </div>

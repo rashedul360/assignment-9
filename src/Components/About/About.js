@@ -28,7 +28,7 @@ const About = () => {
               আমাদের স্লোগান{" "}
               <sup>
                 {/* about incon  */}
-                <i class="fas fa-check-circle"></i>
+                <i className="fas fa-check-circle"></i>
               </sup>{" "}
             </span>
           </div>

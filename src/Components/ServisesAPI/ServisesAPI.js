@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Card, Col, Row } from "react-bootstrap";
-import Home from "../Home/Home";
-import HomeCouses from "../HomeCouses/HomeCouses";
+
 import IntroSection from "../IntroSection/IntroSection";
 import Service from "../Service/Service";
 
@@ -26,7 +25,7 @@ const ServisesAPI = () => {
         {servises.map((service) => (
           <div>
             {/* component call */}
-            <Service key={service.id} service={service}></Service>
+            <Service key={service.key} service={service}></Service>
           </div>
         ))}
       </Row>

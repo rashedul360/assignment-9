@@ -9,12 +9,12 @@ const HomeCouses = () => {
       .then((res) => res.json())
       .then((data) => setCourses(data));
   }, []);
-  console.log(courses);
+
   return (
     <div>
       <Row xs={1} md={2} className="g-4">
         {courses.map((course) => (
-          <Course course={course}></Course>
+          <Course key={course.id} course={course}></Course>
         ))}
       </Row>
     </div>

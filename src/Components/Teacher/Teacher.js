@@ -2,7 +2,6 @@ import React from "react";
 import { Card, Col } from "react-bootstrap";
 import "./Teacher.css";
 const Teacher = (props) => {
-  console.log(props.teacher);
   // common object property peacking
   const { name, key, img, joined, language, job } = props.teacher;
   return (

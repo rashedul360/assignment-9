@@ -3,7 +3,7 @@ import { Card, Col } from "react-bootstrap";
 
 const Service = (props) => {
   // some common object peacking
-  const { img, id, desc, discount, price, title } = props.service;
+  const { img, key, desc, discount, price, title } = props.service;
 
   return (
     <div className="mt-5 ">

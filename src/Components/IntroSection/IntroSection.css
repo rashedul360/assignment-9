@@ -14,9 +14,13 @@ img {
 .course-support {
   color: #9370db;
 }
+/* intro design  */
 
 @media screen and (max-width: 600px) {
   .intro-section-container {
     flex-wrap: wrap;
+  }
+  .intro-image {
+    width: 100%;
   }
 }

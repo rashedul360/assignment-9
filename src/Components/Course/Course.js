@@ -14,7 +14,7 @@ const Course = (props) => {
               <h4>{title}</h4>
             </Card.Title>
             <Card.Text>{desc.slice(0, 200)}</Card.Text>
-            <h4>price: {price}</h4>
+            <h4>price: ${price}</h4>
           </Card.Body>
         </Card>
       </Col>

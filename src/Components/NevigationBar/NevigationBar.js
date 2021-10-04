@@ -27,6 +27,9 @@ const NevigationBar = () => {
                 Teachers
               </NavLink>
             </Nav>
+            <Nav>
+              <Nav.Link href="#deets">Login/Registration</Nav.Link>
+            </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>

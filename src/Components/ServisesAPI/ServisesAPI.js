@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Card, Col, Row } from "react-bootstrap";
+import IntroSection from "../IntroSection/IntroSection";
 import Service from "../Service/Service";
 
 const ServisesAPI = () => {
@@ -12,6 +13,7 @@ const ServisesAPI = () => {
 
   return (
     <div className="mt-5">
+      <IntroSection />
       <h2>
         Our <span>most poppular</span> services
       </h2>

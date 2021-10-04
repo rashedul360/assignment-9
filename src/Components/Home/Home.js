@@ -1,11 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Header from "../Header/Header";
+import IntroSection from "../IntroSection/IntroSection";
 
 const Home = () => {
   return (
     <div>
       <div className="container">
+        <IntroSection />
         <h1
           style={{
             textTransform: "uppercase",
@@ -24,7 +26,7 @@ const Home = () => {
                 alt="..."
               />
               <div className="card-body">
-                <h5 className="card-title">complete web development</h5>
+                <h5 className="card-title">কমপ্লিট ওয়েব ডেভেলপমেন্ট </h5>
 
                 <p>
                   ফটাফট কয়েকটা ভিডিও দেখে HTML, CSS শিখে ফটাফট চমৎকার দুইটা

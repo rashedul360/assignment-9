@@ -5,6 +5,8 @@
 /* header container  */
 .header-container {
   background: #b8dde3;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
 }
 /* left header container  */
 .header-left-container {

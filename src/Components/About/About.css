@@ -3,6 +3,15 @@
   background-color: #b8dde3;
   padding: 10rem;
 }
+/* about section  */
+.about {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.about img {
+  margin-top: 3rem;
+}
 /* about section main container design  */
 .about-section-container {
   padding: 20px;

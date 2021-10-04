@@ -15,7 +15,7 @@ const About = () => {
         </div>
       </section>
       <section className="mt-5 about-section-container">
-        <div className="d-flex justify-content-between align-items-center">
+        <div className="d-flex justify-content-between align-items-center about">
           <div>
             <h1>আমরা যে লক্ষে এগিয়ে জাচ্ছি </h1>
             <p>

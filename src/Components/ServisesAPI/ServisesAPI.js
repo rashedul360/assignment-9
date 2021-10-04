@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Card, Col, Row } from "react-bootstrap";
+import Home from "../Home/Home";
+import HomeCouses from "../HomeCouses/HomeCouses";
 import IntroSection from "../IntroSection/IntroSection";
 import Service from "../Service/Service";
 

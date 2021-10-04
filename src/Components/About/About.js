@@ -32,7 +32,7 @@ const About = () => {
               </sup>{" "}
             </span>
           </div>
-          <div>
+          <div style={{ width: "90%", margin: " 0 auto" }}>
             {/* about image  */}
             <img src={AboutImg} alt="" />
           </div>

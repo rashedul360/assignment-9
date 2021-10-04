@@ -5,8 +5,6 @@
 /* header container  */
 .header-container {
   background: #b8dde3;
-  flex-wrap: wrap;
-  flex-direction: column-reverse;
 }
 /* left header container  */
 .header-left-container {
@@ -25,4 +23,11 @@ h1 {
 /* button class control  */
 .button {
   padding: 10px 20px;
+}
+/* responsive  */
+@media screen and (max-width: 700px) {
+  .header-container {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
 }

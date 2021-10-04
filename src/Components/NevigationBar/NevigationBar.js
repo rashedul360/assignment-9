@@ -14,7 +14,7 @@ const NevigationBar = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <NavLink className="nav-link" strict to="/">
+              <NavLink className="nav-link" strict to="/home">
                 home
               </NavLink>
               <NavLink className="nav-link" strict to="/about">

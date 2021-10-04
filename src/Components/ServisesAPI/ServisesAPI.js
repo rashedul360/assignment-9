@@ -23,10 +23,7 @@ const ServisesAPI = () => {
       {/* map our array ad show the card */}
       <Row xs={1} md={2} className="g-4">
         {servises.map((service) => (
-          <div>
-            {/* component call */}
-            <Service key={service.key} service={service}></Service>
-          </div>
+          <Service key={service.id} service={service}></Service>
         ))}
       </Row>
     </div>

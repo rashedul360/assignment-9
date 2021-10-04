@@ -28,7 +28,9 @@ const NevigationBar = () => {
               </NavLink>
             </Nav>
             <Nav>
-              <Nav.Link href="#deets">Login/Registration</Nav.Link>
+              <NavLink className="nav-link" strict to="/login">
+                Login/Registration
+              </NavLink>
             </Nav>
           </Navbar.Collapse>
         </Container>

@@ -11,6 +11,7 @@ import Teachers from "./Components/Teachers/Teachers";
 import Teacher from "./Components/Teacher/Teacher";
 import About from "./Components/About/About";
 import HomeCouses from "./Components/HomeCouses/HomeCouses";
+import LoginOrRegis from "./Components/LoginOrRegis/LoginOrRegis";
 
 function App() {
   return (
@@ -38,6 +39,9 @@ function App() {
           </Route>
           <Route exact path="/course">
             <HomeCouses></HomeCouses>
+          </Route>
+          <Route exact path="/login">
+            <LoginOrRegis></LoginOrRegis>
           </Route>
           <Route exact path="*">
             <NotFound></NotFound>

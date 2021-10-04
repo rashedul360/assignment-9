@@ -1,6 +1,6 @@
 # project name EDU TECH
 
-nwtlify [Live site link](https://assignment-9-edu-tech.netlify.app/).
+netlify [Live site link](https://assignment-9-edu-tech.netlify.app/).
 
 ## React router ব্যাবহার করা হয়েছে ।
 

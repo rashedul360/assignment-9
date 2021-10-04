@@ -31,4 +31,7 @@
     width: 400px;
     text-align: center;
   }
+  .about-container {
+    padding: 4rem;
+  }
 }

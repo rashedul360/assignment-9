@@ -34,7 +34,7 @@ const About = () => {
           </div>
           <div style={{ width: "90%", margin: " 0 auto" }}>
             {/* about image  */}
-            <img src={AboutImg} alt="" />
+            <img className="img-fluid" src={AboutImg} alt="" />
           </div>
         </div>
       </section>

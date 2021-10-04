@@ -6,7 +6,7 @@ const LoginOrRegis = () => {
   return (
     <div>
       <div className="login-container">
-        <div className="d-flex justify-content-between align-items-center">
+        <div className="d-flex justify-content-between align-items-center login-container ">
           <div className="w-100 align-items-center">
             <div>
               <h1>Login</h1>
@@ -31,7 +31,7 @@ const LoginOrRegis = () => {
             </Link>
           </div>
           <div>
-            <img src={image} alt="" />
+            <img src={image} className="img-fluid" alt="" />
           </div>
         </div>
       </div>

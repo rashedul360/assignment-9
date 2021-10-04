@@ -36,7 +36,7 @@ const Header = () => {
           <div>
             {/* header image  */}
             <img
-              className="image"
+              className="image img-fluid"
               src="https://themepure.net/template/educal/img/hero/hero-2/hero.png"
               alt=""
             />

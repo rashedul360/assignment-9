@@ -4,7 +4,7 @@ const NotFound = () => {
   return (
     <div>
       {/* // when the page not found */}
-      <img src={SVG} alt="not found" />
+      <img className="img-fluid" src={SVG} alt="not found" />
       <h2 className="mt-5 mb-5">4O4 Not Found</h2>
     </div>
   );

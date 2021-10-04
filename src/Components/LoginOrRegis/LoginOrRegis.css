@@ -16,3 +16,10 @@ button {
   font-size: 20px;
   border-radius: 1rem;
 }
+/* responsive design  */
+@media screen and (max-width: 668px) {
+  .login-container {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+}

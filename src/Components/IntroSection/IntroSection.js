@@ -7,7 +7,7 @@ const IntroSection = () => {
       <div className="d-flex intro-section-container">
         {/* intro section image  */}
         <div>
-          <img src={Intro} alt="" />
+          <img className="img-fluid" src={Intro} alt="" />
         </div>
         <div>
           {/* some summary of our courses  */}

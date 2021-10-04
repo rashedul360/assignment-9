@@ -30,4 +30,11 @@ h1 {
     flex-wrap: wrap;
     flex-direction: column-reverse;
   }
+  .header-left-container {
+    width: 250px;
+    overflow: hidden;
+  }
+  .header-container h1 {
+    font-size: 30px;
+  }
 }
